@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-10-11T21:38:44 EDT" name="Default suite" finished-at="2021-10-11T21:39:06 EDT" duration-ms="22005">
+    <groups>
+      <group name="regression">
+        <method signature="LoginTest.emptyPasswordLogin()[pri:0, instance:com.neotech.test.LoginTest@4944252c]" name="emptyPasswordLogin" class="com.neotech.test.LoginTest"/>
+        <method signature="LoginTest.invalidPasswordLogin()[pri:0, instance:com.neotech.test.LoginTest@4944252c]" name="invalidPasswordLogin" class="com.neotech.test.LoginTest"/>
+        <method signature="LoginTest.validLogin()[pri:0, instance:com.neotech.test.LoginTest@4944252c]" name="validLogin" class="com.neotech.test.LoginTest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="LoginTest.validLogin()[pri:0, instance:com.neotech.test.LoginTest@4944252c]" name="validLogin" class="com.neotech.test.LoginTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2021-10-11T21:38:44 EDT" name="Default test" finished-at="2021-10-11T21:39:06 EDT" duration-ms="22005">
+      <class name="com.neotech.test.LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.neotech.test.LoginTest@4944252c]" started-at="2021-10-11T21:38:44 EDT" name="setUp" finished-at="2021-10-11T21:38:47 EDT" duration-ms="2750" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="emptyPasswordLogin()[pri:0, instance:com.neotech.test.LoginTest@4944252c]" started-at="2021-10-11T21:38:47 EDT" name="emptyPasswordLogin" finished-at="2021-10-11T21:38:50 EDT" duration-ms="3258" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyPasswordLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.neotech.test.LoginTest@4944252c]" started-at="2021-10-11T21:38:50 EDT" name="tearDown" finished-at="2021-10-11T21:38:51 EDT" duration-ms="609" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.neotech.test.LoginTest@4944252c]" started-at="2021-10-11T21:38:51 EDT" name="setUp" finished-at="2021-10-11T21:38:52 EDT" duration-ms="1878" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="invalidPasswordLogin()[pri:0, instance:com.neotech.test.LoginTest@4944252c]" started-at="2021-10-11T21:38:52 EDT" name="invalidPasswordLogin" finished-at="2021-10-11T21:38:57 EDT" duration-ms="4897" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidPasswordLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.neotech.test.LoginTest@4944252c]" started-at="2021-10-11T21:38:57 EDT" name="tearDown" finished-at="2021-10-11T21:38:58 EDT" duration-ms="655" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.neotech.test.LoginTest@4944252c]" started-at="2021-10-11T21:38:58 EDT" name="setUp" finished-at="2021-10-11T21:39:00 EDT" duration-ms="2033" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validLogin()[pri:0, instance:com.neotech.test.LoginTest@4944252c]" started-at="2021-10-11T21:39:00 EDT" name="validLogin" finished-at="2021-10-11T21:39:05 EDT" duration-ms="5260" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.neotech.test.LoginTest@4944252c]" started-at="2021-10-11T21:39:05 EDT" name="tearDown" finished-at="2021-10-11T21:39:06 EDT" duration-ms="622" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.neotech.test.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
